@@ -1,0 +1,145 @@
+body{
+  margin: 0;
+
+  font-family:'Open Sans', sans-serif;
+
+  background: linear-gradient(90deg,  rgb(25, 32, 133) 72%, rgba(0, 0, 0, 0.944) 100%);
+
+  min-height: 100vh;
+}
+/*
+rgba(227,255,248,0)
+rgba(227,255,248, 0.38) 
+*/
+.page{
+  width: 1000px;
+  margin: 0 auto ;
+
+  padding-top: 65px;
+}
+
+.page nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+}
+
+.page ul{
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Mulish', sans-serif;
+}
+
+.page ul li a{
+  text-decoration: none;
+  color: #4e93e1;
+  opacity: 0.5;
+}
+
+.page ul li a:visited{
+  color: rgb(206, 208, 212);
+}
+
+.page ul li a:hover{
+  font-weight: bold;
+  color:  rgba(236, 143, 22, 0.727);
+  opacity: 1;
+}
+
+main{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+main section h1{
+  font-family: 'Mulish', sans-serif;
+  font-size: 40px;
+  line-height: 56px;
+  color: #000;
+
+  font-weight: normal;
+
+  width: 500px;
+}
+
+main section h2{
+  font-family: 'Mulish', sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000e4;
+
+  font-weight: normal;
+}
+
+
+main section h1 span{
+  color: rgb(236, 143, 22);
+}
+
+main section p{
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+
+  margin: 40px auto;
+}
+
+button{
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(39, 142, 39);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 15px 32px 15px; 
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+}
+
+button:hover{
+  background-color: rgba(39, 142, 39, 0.907);
+
+}
+
+footer{
+  font-size: 14px;
+  line-height: 28px;
+
+  margin: 80px auto 0 ;
+  text-align: center;
+}
+
+footer a{
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+#imgworkout{
+  border: 3px solid rgb(4, 43, 101);
+
+  border-radius: 10%;
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
+  width: 400px;
+}
+
+#balls{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
